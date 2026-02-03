@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Website Pertamaku</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Halo Dunia! 👋</h1>
-    <p>Ini website pertama saya di GitHub Pages</p>
-    <img https://tse4.mm.bing.net/th/id/OIP.Znp2lna2Fa8kOW4QHXy1vAHaHa?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -25,27 +13,27 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
-:root {
+        :root {
             --primary: #6C63FF;
             --dark: #1a1a2e;
             --light: #f8f9fa;
             --gray: #6c757d;
         }
         
-body {
+        body {
             background-color: var(--dark);
             color: var(--light);
             line-height: 1.6;
         }
         
- .container {
+        .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
         
- /* NAVBAR */
- nav {
+        /* NAVBAR */
+        nav {
             background: rgba(26, 26, 46, 0.95);
             backdrop-filter: blur(10px);
             position: fixed;
@@ -54,39 +42,47 @@ body {
             z-index: 1000;
             padding: 1rem 0;
             border-bottom: 1px solid rgba(108, 99, 255, 0.2);
- }
-         .nav-container {
+        }
+        
+        .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+        
         .logo {
             font-size: 1.8rem;
             font-weight: 700;
             color: var(--light);
             text-decoration: none;
         }
-         .logo span {
+        
+        .logo span {
             color: var(--primary);
         }
+        
         .nav-links {
             display: flex;
             gap: 2rem;
         }
+        
         .nav-links a {
             color: var(--light);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
         }
+        
         .nav-links a:hover {
             color: var(--primary);
         }
+        
         .menu-toggle {
             display: none;
             font-size: 1.5rem;
             cursor: pointer;
         }
+        
         /* HERO SECTION */
         .hero {
             min-height: 100vh;
@@ -95,11 +91,13 @@ body {
             padding-top: 80px;
             background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
         }
+        
         .hero-content {
             display: flex;
             align-items: center;
             gap: 4rem;
         }
+        
         .hero-text {
             flex: 1;
         }
