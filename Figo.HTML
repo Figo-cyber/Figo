@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio · Raka Putra</title>
+  <title>Portofolio · Figo Satya Hambali</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <style>
-    /* ===== RESET & GLOBAL ===== */
     * {
       margin: 0;
       padding: 0;
@@ -89,7 +88,6 @@
       padding: 0 1.5rem;
     }
 
-    /* ===== LOADING SCREEN ===== */
     #loading-screen {
       position: fixed;
       inset: 0;
@@ -152,7 +150,6 @@
       box-shadow: 0 0 20px rgba(42, 109, 244, 0.35);
     }
 
-    /* Teks loading */
     .loader-text {
       font-size: 0.78rem;
       font-weight: 600;
@@ -201,7 +198,6 @@
       100% { width: 100%; }
     }
 
-    /* ===== NAVBAR ===== */
     .navbar {
       position: sticky;
       top: 0;
@@ -306,7 +302,6 @@
       padding: 0.3rem;
     }
 
-    /* ===== SECTION UMUM ===== */
     section {
       padding: 3.5rem 0;
     }
@@ -565,7 +560,6 @@
       to { transform: rotate(360deg); }
     }
 
-    /* ===== ABOUT ===== */
     .about-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -664,7 +658,6 @@
       border: 1px solid rgba(42, 109, 244, 0.1);
     }
 
-    /* ===== SKILLS ===== */
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -739,8 +732,6 @@
       width: 0;
       transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-
-    /* ===== PROJECTS ===== */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -824,7 +815,6 @@
       font-weight: 500;
     }
 
-    /* ===== ACHIEVEMENTS ===== */
     .achievements-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -886,7 +876,6 @@
       margin-top: 0.4rem;
     }
 
-    /* ===== EDUCATION (TIMELINE) ===== */
     .timeline {
       position: relative;
       padding-left: 2rem;
@@ -961,7 +950,6 @@
       line-height: 1.6;
     }
 
-    /* ===== HOBBIES ===== */
     .hobbies-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1011,7 +999,6 @@
       line-height: 1.5;
     }
 
-    /* ===== GOALS ===== */
     .goals-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1072,7 +1059,6 @@
       line-height: 1.6;
     }
 
-    /* ===== CONTACT ===== */
     .contact-wrap {
       background: var(--surface);
       backdrop-filter: blur(14px);
@@ -1157,7 +1143,6 @@
       color: var(--accent);
     }
 
-    /* ===== FOOTER ===== */
     .footer {
       border-top: 1px solid var(--border);
       padding: 2.5rem 0 1.5rem;
@@ -1212,7 +1197,6 @@
       text-decoration: underline;
     }
 
-    /* ===== BACK TO TOP ===== */
     .back-top {
       position: fixed;
       bottom: 2rem;
@@ -1247,7 +1231,6 @@
       box-shadow: 0 14px 26px -8px rgba(42, 109, 244, 0.6);
     }
 
-    /* ===== ANIMASI SCROLL ===== */
     .reveal {
       opacity: 0;
       transform: translateY(20px);
@@ -1259,7 +1242,6 @@
       transform: translateY(0);
     }
 
-    /* ===== RESPONSIVE ===== */
     @media (max-width: 900px) {
       .hero-grid {
         grid-template-columns: 1fr;
@@ -1391,7 +1373,6 @@
 </head>
 <body>
 
-  <!-- ===== LOADING SCREEN ===== -->
   <div id="loading-screen">
     <div class="loader-ring">
       <div class="loader-core"></div>
@@ -1404,11 +1385,10 @@
     </div>
   </div>
 
-  <!-- ===== NAVBAR ===== -->
   <nav class="navbar">
     <div class="nav-inner">
       <a href="#home" class="nav-logo">
-        <i class="fas fa-cube"></i> Raka.Portofolio
+        <i class="fas fa-cube"></i> Figo.Portofolio
       </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home" class="active">Home</a></li>
@@ -1432,7 +1412,6 @@
     </div>
   </nav>
 
-  <!-- ===== HOME / HERO ===== -->
   <section id="home" class="hero">
     <div class="container">
       <div class="hero-grid">
@@ -1442,10 +1421,10 @@
           </div>
           <h1 class="hero-title">
             Halo, saya<br />
-            <span class="gradient">Raka Putra</span>
+            <span class="gradient">Figo Satya</span>
           </h1>
           <p class="hero-subtitle">
-            Siswa kelas XI yang bersemangat di dunia pengembangan web dan desain antarmuka.
+            Siswa kelas IX yang bersemangat di dunia pengembangan web dan desain antarmuka.
             Saya percaya bahwa teknologi yang baik adalah teknologi yang terasa manusiawi.
           </p>
           <p class="hero-slogan">
@@ -1480,7 +1459,6 @@
     </div>
   </section>
 
-  <!-- ===== ABOUT ME ===== -->
   <section id="about">
     <div class="container">
       <div class="reveal">
@@ -1493,12 +1471,12 @@
         <div class="about-card reveal">
           <h3><i class="fas fa-id-card"></i> Identitas</h3>
           <ul class="info-list">
-            <li><i class="fas fa-user"></i> <span><strong>Nama Lengkap:</strong> Raka Putra Pratama</span></li>
-            <li><i class="fas fa-tag"></i> <span><strong>Nama Panggilan:</strong> Raka</span></li>
-            <li><i class="fas fa-school"></i> <span><strong>Kelas:</strong> XI IPA 2</span></li>
-            <li><i class="fas fa-building-columns"></i> <span><strong>Sekolah:</strong> SMA Negeri 1 Teknologi</span></li>
-            <li><i class="fas fa-heart"></i> <span><strong>Minat:</strong> Web Development, UI/UX, Fotografi</span></li>
-            <li><i class="fas fa-bullseye"></i> <span><strong>Cita-cita:</strong> Front-End Engineer di perusahaan teknologi global</span></li>
+            <li><i class="fas fa-user"></i> <span><strong>Nama Lengkap:</strong> Figo Satya Hambali </span></li>
+            <li><i class="fas fa-tag"></i> <span><strong>Nama Panggilan:</strong> Figo</span></li>
+            <li><i class="fas fa-school"></i> <span><strong>Kelas:</strong> IX Utsman</span></li>
+            <li><i class="fas fa-building-columns"></i> <span><strong>Sekolah:</strong> SMPIT Assyifa Boarding School JalanCagak</span></li>
+            <li><i class="fas fa-heart"></i> <span><strong>Minat:</strong> Web Development, Menggambar,Memasak,Fotografi</span></li>
+            <li><i class="fas fa-bullseye"></i> <span><strong>Cita-cita:</strong> Dokter,Desainer,Koki</span></li>
           </ul>
         </div>
 
@@ -1506,19 +1484,19 @@
           <h3><i class="fas fa-quote-left"></i> Tentang Diri Saya</h3>
           <p>
             Saya adalah siswa yang senang belajar hal baru, terutama yang berkaitan dengan teknologi dan desain.
-            Sejak SMP, saya sudah tertarik membuat website sederhana dan mulai mendalami HTML, CSS, serta JavaScript secara otodidak.
+            Sejak SMP kelas 7, saya sudah tertarik membuat website sederhana dan mulai mendalami HTML, CSS, serta JavaScript secara otodidak dan dibantu dikit oleh putra (teman saya).
           </p>
           <p>
             Selain coding, saya juga suka fotografi dan desain grafis. Saya percaya kombinasi antara logika dan estetika
             bisa menciptakan produk digital yang tidak hanya berfungsi, tetapi juga menyenangkan digunakan.
           </p>
           <p>
-            Di waktu luang, saya aktif mengerjakan proyek-proyek kecil, mengikuti lomba UI/UX, dan membaca artikel tentang
+            Di waktu luang, saya aktif mengerjakan proyek-proyek kecil, mengikuti lomba SIF, dan membaca buku atau artikel tentang
             tren teknologi terbaru.
           </p>
           <div class="tag-row">
             <span class="tag">#WebDev</span>
-            <span class="tag">#UIUX</span>
+            <span class="tag">#Memasak</span>
             <span class="tag">#Fotografi</span>
             <span class="tag">#Design</span>
             <span class="tag">#Coding</span>
@@ -1528,7 +1506,6 @@
     </div>
   </section>
 
-  <!-- ===== MY SKILLS ===== -->
   <section id="skills">
     <div class="container">
       <div class="reveal">
@@ -1542,9 +1519,9 @@
           <div class="skill-head">
             <div class="skill-head-left">
               <div class="skill-icon"><i class="fab fa-html5"></i></div>
-              <span class="skill-name">HTML & CSS</span>
+              <span class="skill-name">HTML,JavaScript & CSS</span>
             </div>
-            <span class="skill-percent">88%</span>
+            <span class="skill-percent">65%</span>
           </div>
           <div class="progress-track"><div class="progress-fill" data-width="88%"></div></div>
         </div>
@@ -1553,9 +1530,9 @@
           <div class="skill-head">
             <div class="skill-head-left">
               <div class="skill-icon"><i class="fab fa-js"></i></div>
-              <span class="skill-name">JavaScript</span>
+              <span class="skill-name">Memasak</span>
             </div>
-            <span class="skill-percent">75%</span>
+            <span class="skill-percent">80%</span>
           </div>
           <div class="progress-track"><div class="progress-fill" data-width="75%"></div></div>
         </div>
@@ -1564,9 +1541,9 @@
           <div class="skill-head">
             <div class="skill-head-left">
               <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
-              <span class="skill-name">Desain Grafis</span>
+              <span class="skill-name">Desain Grafis & Menggambar</span>
             </div>
-            <span class="skill-percent">80%</span>
+            <span class="skill-percent">89%</span>
           </div>
           <div class="progress-track"><div class="progress-fill" data-width="80%"></div></div>
         </div>
@@ -1610,7 +1587,7 @@
               <div class="skill-icon"><i class="fas fa-microphone"></i></div>
               <span class="skill-name">Public Speaking</span>
             </div>
-            <span class="skill-percent">68%</span>
+            <span class="skill-percent">80%</span>
           </div>
           <div class="progress-track"><div class="progress-fill" data-width="68%"></div></div>
         </div>
@@ -1629,7 +1606,6 @@
     </div>
   </section>
 
-  <!-- ===== MY PROJECTS ===== -->
   <section id="projects">
     <div class="container">
       <div class="reveal">
@@ -1708,7 +1684,6 @@
     </div>
   </section>
 
-  <!-- ===== MY ACHIEVEMENTS ===== -->
   <section id="achievements">
     <div class="container">
       <div class="reveal">
